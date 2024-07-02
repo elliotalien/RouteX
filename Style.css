@@ -649,6 +649,12 @@ footer {
     .copyright-content>.about-paragraph {
         border-bottom: 1px solid #fff;
     }
+    .banner-box {
+        padding: 120px 0 175px 0 !important;
+    }
+    .banner__text {
+        font-size: 39px;
+    }
 }
 
 
