@@ -498,6 +498,10 @@ footer {
     color: #FFFFFF;
 }
 
+.n{
+    display: none;
+}
+
 
 /* responsive layout */
 @media (max-width: 1199.98px) {
@@ -526,13 +530,15 @@ footer {
         transition: all ease 600ms;
         overflow-y: scroll;
         overflow-x: hidden;
-        padding: 20px 0 !important;
+        padding: 50px 0 !important;
         align-items: center;
     }
 
     .check-icon {
         display: block;
     }
+
+ 
 }
 
 
@@ -624,6 +630,9 @@ footer {
 
     .row-box {
         justify-content: center !important;
+    }
+    .n{
+        display: block !important;
     }
 }
 
