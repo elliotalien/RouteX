@@ -6,68 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Routex</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="res.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" href="Assets/OBJECTS.png">
+    <link rel="icon" href="Assets/OBJECTS.png">
 </head>
 
 <body>
     <main>
-        <section class="banner">
-            <!-- Header -->
-            <header class="d-flex  justify-content-between px-40 align-items-center">
-                <div class="logo d-flex gap-2"><img src="Assets/OBJECTS.png" class="object-fit-contain" alt="logo">
-                    <div class="logo-text">RouteX</div>
+        <!-- Header -->
+        <header class="d-flex  justify-content-between px-40 align-items-center">
+            <div class="logo d-flex gap-2"><img src="Assets/OBJECTS.png" class="object-fit-contain" alt="logo">
+                <div class="logo-text">RouteX</div>
+            </div>
+            <div class="navlinks">
+                <ul class="nav-l gap-4">
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">HOME</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">ABOUTUS</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">STORY</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">VISA</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">BLOG</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex align-items-center gap-2"><a href="">PAGE</a><i
+                            class="fa-solid fa-angle-down"></i></li>
+                    <li class="nav-text d-flex"><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="contact d-flex gap-3 align-items-center">
+                <div class="contact-icon "><i class="fa-regular fa-comments"></i></div>
+                <div class="content-text">
+                    <div class="help-text">Need help ?</div>
+                    <div class="contact-number">(307)555-0133</div>
                 </div>
-                <div class="navlinks">
-                    <ul class=" d-flex gap-4">
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">HOME</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">ABOUTUS</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">STORY</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">VISA</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">BLOG</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex align-items-center gap-2"><a href="">PAGE</a><i
-                                class="fa-solid fa-angle-down"></i></li>
-                        <li class="nav-text d-flex"><a href="">CONTACT</a></li>
-                    </ul>
-                </div>
-                <div class="contact d-flex gap-3 align-items-center">
-                    <div class="contact-icon "><i class="fa-regular fa-comments"></i></div>
-                    <div class="content-text">
-                        <div class="help-text">Need help ?</div>
-                        <div class="contact-number">(307)555-0133</div>
-                    </div>
-                </div>
-            </header>
+                <input style="display: none;" type="checkbox" id="checking">
+                <label class="check-icon" for="checking">
+                    <i  class="fa-solid fa-bars check-bar"></i>
+                </label>
+            </div>
+        </header>
 
-            <div class="hero">
-                <div class="banner_content d-flex flex-column align-items-center gap-4">
-                    <div class="banner__title d-flex justify-content-center">
-                        <h2 class="banner__text">Journey with Confidence <span> Migrate</span> with Us</h2>
+        <!-- Banner -->
+
+        <section>
+            <div class="banner">
+                <div class="container banner-box">
+                    <div class="banner_content d-flex flex-column align-items-center gap-4">
+                        <div class="banner__title d-flex justify-content-center">
+                            <div class="banner__text">Journey with Confidence <span> Migrate</span> with Us</div>
+                        </div>
+                        <p class="banner_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                            amet
+                            <br> rcus nunc. Duis egestas ac ante sed tincidunt.
+                        </p>
+                        <button
+                            class="filed-button rounded-pill d-flex gap-2 justify-content-center align-items-center"><Span>Learn
+                                More</Span><i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
-                    <p class="banner_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-                        <br> rcus nunc. Duis egestas ac ante sed tincidunt.
-                    </p>
-                    <button
-                        class="filed-button rounded-pill d-flex gap-2 justify-content-center align-items-center"><Span>Learn
-                            More</Span><i class="fa-solid fa-arrow-right-long"></i></button>
                 </div>
             </div>
         </section>
 
+
         <!-- About Section -->
-        <section class="about-us">
+        <section class="about-us main">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 about-images-box">
                         <div class="about-us-content">
                             <div class="about-us-media d-flex gap-4">
                                 <div class="about-us-media-image1"><img src="Assets/about-big-img.png" class="rounded-4"
@@ -151,7 +162,7 @@
 
         <!-- Service section -->
 
-        <section class="services app-box gray-bg">
+        <section class="services app-box gray-bg main">
             <div class="service__bg-wrap">
                 <div class="service__bg-img"></div>
             </div>
@@ -179,7 +190,7 @@
                             </svg>
 
                         </div>
-                        <h2 class="about-text-2 changes">Adventure Unleashed Discover Your Next</h2>
+                        <h2 class="about-text-2 changes pt-2">Adventure Unleashed Discover Your Next</h2>
                     </div>
                     <div class="rounted-buttons d-flex gap-2">
                         <button class="unfiled-routed-btn"><i class="fa-solid fa-arrow-left-long"></i></button>
@@ -269,7 +280,10 @@
             </div>
         </section>
 
-        <footer>
+
+        <!-- Fotter -->
+
+        <footer class="main">
             <section class="footer-section">
                 <div class="container footer-wrap">
                     <div class="row">
@@ -288,7 +302,7 @@
                                 <i class="fa-brands fa-linkedin"></i>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 pt-3 ps-5">
+                        <div class="col-lg-3 col-md-6 pt-3  service-menu pxxxx">
                             <div class="footer__widget-title">
                                 <h4 class="service-footer-head">Service Menu</h4>
                                 <div class="service-points">
@@ -312,7 +326,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3 col-md-6 pt-3">
+                        <div class="col-lg-3 col-md-6 pt-3 pxxxx">
                             <div class="footer__widget-title">
                                 <h4 class="service-footer-head">Useful Link</h4>
                                 <div class="service-points">
@@ -336,7 +350,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-3 col-md-6 pt-3">
+                        <div class="col-lg-3 col-md-6 pt-3 pxxxx">
                             <div class="footer__widget-title">
                                 <h4 class="service-footer-head">Gallery</h4>
                                 <div class="card-1">
@@ -368,6 +382,7 @@
             </section>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
